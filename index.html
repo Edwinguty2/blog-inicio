@@ -19,7 +19,7 @@
 				<ul>
 					<li> Inicio  </li>
 					<li>|  <a href="https://edwinguty2.github.io/blog-competencias-academicas/">Competencias academicas</a></li>
-					<li>| <a href="https://edwinguty2.github.io/blog-experiencia/">Experiencia</a></li>
+					<li>| <a href="">Experiencia</a></li>
 				</ul>
 			</nav>
 			<section id="area_principal">
@@ -71,7 +71,8 @@
 				</figure>
 				<i>"Hay que unirse, no para estar juntos, sino para hacer algo juntos" Juan Donoso Cortés.</i><br> <br>
 				Ingresa tu sugernecia: <br><br>
-				<textarea id="Tx-1"></textarea>
+				<textarea id="Tx1"></textarea> <br><br>
+				<button onclick="accion_1()" id="Bt1">ENVIAR</button>  <br>
 			</aside>
 			<footer id="pie">
 				Copyright & copy; 2023
@@ -81,7 +82,13 @@
 	</body>
 </html>
 
-<style type="text/css">
-	
 
-</style>
+<script type="text/javascript">
+
+	function accion_1()
+				{
+					alert("Gracias por enviarnos tus comentarios")
+					document.getElementById("Tx1").value = "";
+				}
+		
+</script>
