@@ -1,0 +1,72 @@
+/* PARTES DEL CUERPO*/
+#caja_principal{
+	background: #96f2b9;	
+	width: 1000px;   /* Por defecto, todo los bloques vienen con 100% de ocupación orizontal, aquí lo limitamos*/
+	margin: 15px auto; /* Esto esatblece que arriba y abajo es de 15 px , y a los lados es automatico segun el cuerpo*/
+	border: 1px solid #000000;
+
+	text-align: left; 
+}
+#cabecera{
+	text-align: center; 
+	background: #b9e3ff;
+	border: 1px solid #999999;
+	padding: 5px ; /* Borde interior*/
+}
+#menu{
+	background: #CCCCCC;	
+	padding: 5px 15px;
+}
+#menu li {
+	display: inline-block;  /* que queden de izquierda a derecha en bloque la lista*/
+	list-style: none;  /* Que hay en el espacio de la lista*/
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+#area_principal{
+	float:left; /* posicion de la caja*/
+	width: 660px; /* ancho de la caja */
+	margin: 20px;
+}
+#barra_lateral{
+	float: left; 
+	text-align: center; 
+	border: 1px solid #000000;
+	width: 270px;
+	margin: 20px 0px;	/* TENER ENCUENTA QUE AL PONER UNA MARGEN, PONER MARGEN ADENTRO, Y BORDE, SE SUMA TODO, NO SE RESTA AL CAJA*/
+	padding: 10px;
+	background: #CCCCCC;
+}
+#pie{
+	background: #b9e3ff;
+	clear: both;  /*Esto es para que el documento retome una linea de flujo normal, sin bloques adyasentes "clear" ,"both" es para restaurar ambos lados se restauran*/
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999; /*  Solo borde arriba*/
+}
+/* DETALLES */
+article{
+		background: #b9e3ff;
+		border: 1px solid #999999;
+		padding: 20px;
+		margin-bottom: 15px ;
+}
+
+#article_text{
+	float:left; /* posicion de la caja*/
+	width: 230px; /* ancho de la caja */
+	margin: 5px; 
+}
+article figure{
+	float:left; /* posicion de la caja*/
+	width: 300px; /* ancho de la caja */
+	margin: 40px 35px ;
+ 
+}
+article footer{
+	clear: both;
+	text-align: right;
+}
+figcaption{
+	font: italic 14px verdana, sans-serif;
+}
